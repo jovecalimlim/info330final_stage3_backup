@@ -1,0 +1,272 @@
+* {
+    font-style: Courier;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+#logo {
+    width: 70%;
+    padding-left: 25px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: none !important;
+}
+
+#signUp {
+    width: 30%
+}
+
+#sign-up {
+    padding-top: 24px;
+
+}
+
+.button:active {
+    background: #4b2e83 !important;
+}
+
+#buttons-men {
+    border-radius: 190.3rem;
+}
+
+#buttons-men:active {
+    background-color: white;
+}
+
+#buttons-women {
+    border-radius: 190.3rem;
+}
+
+#outerwear {
+    width: 50% !important;
+    max-width: 50% !important;
+}
+
+#wardrobe {
+    width: 49% !important;
+}
+
+.dropdown-menu{
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    color: black;
+}
+
+#name, #color, #desc, #size, #price {
+    margin: 20px;
+}
+
+#more {
+    color: #4b2e83;
+}
+
+.btn {
+    border-radius: 190.3rem !important;
+}
+
+.btn:active {
+    background-color: #4b2e83;
+    border-radius: 190.3rem !important;
+    margin-left: 10px !important;
+    text-align: center !important;
+    max-width: none !important;
+}
+
+.btn.active {
+    color: white;
+    background-color: #4b2e83;
+    border-radius: 190.3rem !important;
+    margin-left: 10px !important;
+    text-align: center !important;
+    max-width: none !important;
+}
+
+.btn-group>.btn-group:not(:first-child),
+.btn-group>.btn:not(:first-child) {
+    margin-left: 13px !important;
+}
+
+.dropdown {
+    margin-top: 10px;
+    width: 90%;
+}
+
+#sell-desc-menu {
+    margin-top: 15x;
+}
+
+#submit {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #b7a57a;
+    border-color:  #b7a57a;
+}
+
+#title-item {
+    border-bottom: 1px solid #dee2e6;
+}
+
+#title-header {
+    color: #adb5bd;
+    font-size: 10px;
+}
+
+#stock-img {
+    border-radius: 190.3rem !important;
+}
+
+#stock-name {
+    font-size: 14px;
+}
+
+#stars {
+    color: #ffc107;
+}
+
+#item-desc {
+    margin-top: 20px;
+}
+
+#item-desc-parah {
+    font-size: 15px;
+}
+
+#breadcrumbs {
+    font-size: 10px;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    background-color: #4b2e83 !important;
+    border-color: #4b2e83;
+    width: 100%;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4b2e83;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.space-card {
+    margin: 10px;
+}
+
+.nav-color {
+    background-color: #ffffff !important;
+}
+
+.preview-item {
+    width: 100%;
+}
+
+.card-alignment {
+    border: none !important;
+}
+
+.img-sizing {
+    width: 540px;
+    height: 540px;
+}
+
+body {
+    padding-bottom: 400px;
+}
+
+.footer-bottom {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a.nav-item.nav-link:link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #85754d;
+}
+
+/* signUp.html CSS */
+
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.signupbtn {
+  background-color: #4b2e83;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.signupbtn {
+  float: left;
+  width: 100%;
+}
+
+.container {
+  padding: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+select {
+    margin: 20px;
+}
+
+@media screen and (max-width: 300px) {
+
+  .signupbtn {
+    width: 100%;
+  }
+}

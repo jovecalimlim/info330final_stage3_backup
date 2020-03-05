@@ -1,0 +1,127 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>UWardrobe</title>
+  <link rel="stylesheet" type="text/css" href="css/Settings.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Header + search box -->
+    <header>
+      <nav class="navbar nav-color navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" width="160" height="70"
+            title="Bootstrap"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="sell.html">Sell</a>
+            <a class="nav-item nav-link active" href="item.html">Browse</a>
+            <a class="nav-item nav-link" href="#">Account</a>
+          </div>
+        </div>
+      </nav>
+    
+    </header>
+
+    <!-- Main Content -->
+    <main>
+<div class="container" id="main">
+        <div class="row-fluid" style="
+          margin-bottom: 10px;">
+          <p class="span12">
+            <a href="#menu" class="side-menu-link btn btn-mini" title="Click for sub-menu">
+              <i class="icon-th"></i>
+            </a>
+          </p>
+        </div>
+        <div id="wrap" class="row-fluid wrap">
+          <!--Sidebar content-->
+          <aside class="well span3 oc" id="side-menu" role="navigation">
+            <ul class="nav nav-list">
+              <li class="nav-header">Account</li>
+              <li><a href="#" class="no-margin"></a></li>
+              <li><a href="#" class="no-margin">My Items</a></li>
+              <li><a href="#" class="no-margin">Transactions</a></li>
+              <li><a href="#" class="no-margin">Feedback</a></li>
+              <li><a href="#item.html" class="no-margin">Settings</a></li>
+              <li><a href="#" class="no-margin">Notifications</a></li>
+              <li><a href="#" class="no-margin">Devices</a></li>
+
+            </ul>
+          </aside>
+          
+          <!--Body content-->
+          <section class="well span9 ">
+            <h2>You have no Items for sale.</h2>
+            <ul class="nav">
+              <li><a href="#sell.html">Start Selling</a></li>
+            </ul>
+          </section>
+          
+        </div>
+      </div>
+  </main>
+
+  <!-- Footer and links -->
+  <footer>
+    <div class="footer-bottom fixed-bottom">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/info340a-w20/project-timeismoney" target="_blank">Github</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">UWardrobe © 2020</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <!--  -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+  <script>
+      $(document).ready(function() {
+  
+  $('body').addClass('js');
+  
+  var $menu = $('#side-menu'),
+    $menulink = $('.side-menu-link'),
+    $wrap = $('#wrap');
+  
+  $menulink.click(function() {
+    $menulink.toggleClass('active');
+    $wrap.toggleClass('active');
+    return false;
+  });
+});
+  </script>
+  </div>
+</body>
+</body>
+
+</html>
+

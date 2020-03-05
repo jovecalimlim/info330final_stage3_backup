@@ -1,0 +1,106 @@
+[
+    {
+        "id":1,
+        "category":"outerwear",
+        "name":"Nike Flash Jacket",
+        "color":"white",
+        "description":"A reflective Nike Flash rain jacket that is water-repellent.",
+        "size":"medium",
+        "price":"159.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/nike_jacket_1.png"
+        ]
+    },
+    {
+        "id":2,
+        "category":"footwear",
+        "name":"Kobe 5 Protro Basketball Shoes",
+        "color":"white/black/gold",
+        "description":"A Nike Kobe 5 Protro basketball shoe celebrating Kobe Bryant's final championship.",
+        "size":"11.0",
+        "price":"89.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/kobe_shoe_1.png"
+        ]
+    },
+    {
+        "id":3,
+        "category":"outerwear",
+        "name":"Adidas Windbreaker Jacket",
+        "color":"white/black",
+        "description":"A lightweight Adidas windbreaker jacket for casual wear.",
+        "size":"small",
+        "price":"109.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/adidas_jacket_1.png"
+        ]
+    },
+    {
+        "id":4,
+        "category":"footwear",
+        "name":"Adidas Ultra Boost 3.0 'Chinese New Year' 2017 Running Shoes",
+        "color":"red/black/white",
+        "description":"A special edition Adidas Ultra Boost shoe celebrating the Chinese New Year with on-theme colors and branding.",
+        "size":"9.5",
+        "price":"309.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/adidas_shoe_1.png"
+        ]
+    },
+    {
+        "id":5,
+        "category":"top",
+        "name":"Adidas Trefoil Hoodie",
+        "color":"black/white",
+        "description":"A casual Adidas hoodie featuring the classic Adidas Trefoil logo enlarged along the front.",
+        "size":"large",
+        "price":"49.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/adidas_sweater_1.jpg"
+        ]
+    },
+    {
+        "id":6,
+        "category":"footwear",
+        "name":"Kobe 9 Elite High 'Showtime' Baksetball Shoes",
+        "color":"purple/gold/black",
+        "description":"A Nike Kobe 9 Elite High basketball shoe featuring a Los Angeles Lakers color scheme and a high-top look.",
+        "size":"10.0",
+        "price":"249.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/kobe_shoe_2.png"
+        ]
+    },
+    {
+        "id":7,
+        "category":"bottom",
+        "name":"Nike Tech Fleece Pants",
+        "color":"gray",
+        "description":"A comfortable Nike Tech Fleece sweatpants with a large zipper pocket along the side.",
+        "size":"small",
+        "price":"119.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/nike_pants_1.png"
+        ]
+    },
+    {
+        "id":8,
+        "category":"footwear",
+        "name":"Nike Racer 'Multicolor' Running Shoes",
+        "color":"multicolor/white/black",
+        "description":"An extremely light and breathable running shoe with a beautiful multicolor flyknit upper mesh.",
+        "size":"7.0",
+        "price":"149.99",
+        "gender":"men",
+        "images": [
+            "images/premade_json_images/nike_shoe_1.JPEG"
+        ]
+    }
+]
